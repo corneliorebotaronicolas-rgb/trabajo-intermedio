@@ -1,0 +1,500 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --ff-text: "Inter", sans-serif;
+}
+
+body{
+    background-color:black;
+    font-family: var(--ff-text);
+    color: #FFFFFF;
+    max-width: 100%;
+}
+
+.div-general-header{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    list-style: none;
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-right: 60px;
+}
+
+.Logo-Business{
+    color: white;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;                     /* separación entre ícono y texto */
+    margin-right: auto;
+}
+
+.Logo svg{
+    height: 20px;
+    width: auto;\
+    display: black;
+}
+
+.Business svg{
+    width: auto;
+    height: 20px;
+    margin-left: 7px;
+    margin-left: 0;
+}
+
+.Lista{
+    color: white;
+    gap: 50px;
+    display: flex;
+}
+.Lista-desordenada{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 12px;
+    margin-top: 10px;
+    white-space: nowrap;
+}
+
+.Prueba-OpenAi{
+    color: #FFFFFF;
+    background-color: #1F1F1F;
+    border: 0;
+    border-radius: 40px;
+    display: inline-flex; 
+    align-items: center;      /* Centra verticalmente el texto con la flecha */
+    gap: 10px;                /* <--- Esta es la separación entre el texto y la flecha */
+    /* Estilos opcionales para que quede bien formateado */
+    padding: 10px 16px;
+    cursor: pointer;
+}  /* Alinea el texto y el icono en linea */
+  
+.Pregunta-algo {
+  padding: 0;
+  border: none;
+  background: transparent;
+  line-height: 0;
+  /* borrá el height: 2px, no hace falta */
+}
+
+.Pregunta-algo img {
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+
+.derecha{
+    margin-left: 210px;
+      display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    flex-shrink: 0;        /* no deja que se achique */
+    white-space: nowrap;   /* el texto de cada botón no se parte */
+}
+
+.Hablar-con-un-experto{
+    color: #1F1F1F;
+    background-color: #FFFFFF;
+    border: 0;
+    border-radius: 40px;
+    display: inline-flex; 
+    align-items: center;      /* Centra verticalmente el texto con la flecha */
+    gap: 10px;                /* <--- Esta es la separación entre el texto y la flecha */
+    padding: 10px 16px;
+    cursor: pointer;
+}
+
+.main-general{
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 90px;
+}
+
+.img-parte-principal img{
+    height: 600px;
+    width: 600px;
+    border-radius: 5px;
+}
+
+.texto{
+    margin-left: 40px 50px;
+    margin-top: 100px;
+}
+
+.investigación{
+    font-size: 13px;
+}
+
+.titulo{
+    font-size: 30px;
+}
+
+.Comunicate-con-el-departamento{
+    color: #FFFFFF;
+    background-color: #1F1F1F;
+    border: 0;
+    border-radius: 40px;
+    display: inline-flex; 
+    align-items: center;      /* Centra verticalmente el texto con la flecha */
+    gap: 10px;                /* <--- Esta es la separación entre el texto y la flecha */
+    padding: 10px 16px;
+    cursor: pointer;
+}
+
+.probar-chatgpt{
+    color: #1F1F1F;
+    background-color: #FFFFFF;
+    border: 0;
+    border-radius: 40px;
+    display: inline-flex; 
+    align-items: center;      /* Centra verticalmente el texto con la flecha */
+    gap: 10px;                /* <--- Esta es la separación entre el texto y la flecha */
+    padding: 10px 16px;
+    cursor: pointer;
+}
+
+.botones{
+    margin-top: 30px;
+}
+
+.ofertas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    align-items: stretch;          /* las 3 tarjetas igual de altas */
+    padding: 0 40px;
+}
+
+.img-ofertas-1 img,
+.img-ofertas-2 img,
+.img-ofertas-3 img {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;        /* contenido apilado, botón al fondo */
+    background-color: #212121;
+    border-radius: 12px;
+    padding: 8px 8px 24px;
+    color: white;
+}
+
+.ChatGPT h3{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 16px;
+    margin-bottom: 10px
+}
+    
+.investigacion-a-fondo h3{
+    font-size: 20px;
+    margin-left: 10px;
+     margin-top: 16px;
+    margin-bottom: 10px
+}
+
+.Recuperacion h3 {
+  font-size: 20px;
+  margin-left: 10px;
+   margin-top: 16px;
+    margin-bottom: 10px
+}
+
+.asistente{
+      margin: 0 12px;
+      font-style: italic;
+      font-size: 12px;
+}
+
+.avanzada{
+     margin: 0 12px;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.respuestas {
+  margin: 0 12px;
+  font-style: italic;
+  font-size: 12px;
+}
+
+/* listas */
+.tarjeta ul {
+  list-style: disc;
+  padding-left: 32px;
+  margin: 16px 12px 24px;
+}
+
+/* botón siempre abajo */
+.contenedor-boton {
+  margin-top: auto;              /* esto lo empuja al fondo */
+  padding: 0 12px;
+}
+
+
+.usar {
+  width: 100%;
+  background: white;
+  color: black;
+  border: none;
+  border-radius: 999px;          /* forma de píldora */
+  padding: 14px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 16px;
+}
+
+.probar{
+    width: 100%;
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 999px;          /* forma de píldora */
+    padding: 14px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.mas-informacion{
+    width: 100%;
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 999px;          /* forma de píldora */
+    padding: 14px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+ul{
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 80px;
+}
+
+.parrafo-secundario{
+    text-align: center;
+}
+
+.parrafo-secundario p {
+  max-width: 550px;      /* fuerza el corte en dos renglones; ajustá el valor */
+  margin: 16px auto 0;   /* "auto" a los costados centra el bloque */
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.redes {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.redes img {
+  height: 14px;
+  width: auto;
+  display: block;
+}
+
+.cookis{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px;
+    gap: 10px;
+
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 250px;
+    margin-bottom: 20px;
+}
+
+.gestionar{
+    border: 0px;
+    background-color: black;
+    color: white;
+    text-decoration: underline ;
+}
+
+.año{
+   font-size: 13px;
+}
+
+.region{
+    align-items: center;
+    margin-left: 180px;
+}
+
+.idioma{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 50px;
+    border: 0;
+    border-radius: 40px;
+    align-items: center;      
+    padding: 10px 16px;
+    cursor: pointer;
+    background-color: #1F1F1F;
+    font-size: 15px;
+}
+
+.planeta{
+    color: white;
+}
+
+.tipo{
+    color: white;
+}
+
+.clase{
+     color: rgb(162, 133, 133);
+}
+
+.menu-movil {
+  display: none;
+  background: transparent;
+  border: none;
+  color: white;
+  padding: 0;
+  line-height: 0;
+  cursor: pointer;
+}
+
+
+
+/* Tablet y celular grande: 900px o menos */
+@media (max-width: 900px) {
+.div-general-header {
+  justify-content: flex-start;   /* en vez de space-between o center */
+  gap: 20px;
+  margin: 20px 20px 0;
+  flex-wrap: wrap;
+}
+
+.Logo-Business {
+  margin-right: auto;            /* empuja lupa y menú a la derecha */
+  margin-top: 0;
+}
+
+.derecha {
+  display: none;                 /* oculta "Prueba OpenAi" */
+}
+
+.menu-movil {
+  display: block;                /* muestra el ícono de menú */
+}
+  .Lista,
+  .Hablar-con-un-experto {
+    display: none;                /* no entran; queda logo, lupa y "Prueba OpenAi" */
+  }
+
+  .derecha {
+    margin-left: 0;               /* tenía 210px */
+  }
+
+  .main-general {
+    flex-direction: column;       /* texto arriba, imagen abajo */
+    margin: 40px 20px 0;
+  }
+
+  .texto {
+    margin: 0; 
+  }
+
+  .img-parte-principal img {
+    width: 100%;                  /* tenía 600px fijos */
+    height: auto;
+  }
+
+  .ofertas {
+    grid-template-columns: 1fr;   /* una tarjeta por fila */
+    padding: 0 20px;
+  }
+
+  footer {
+    flex-direction: column;       /* tenía gap: 250px en fila */
+    align-items: center;
+    gap: 0;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .redes {
+    margin: 30px 0 0;             /* tenía margin-left: 40px */
+    justify-content: center;
+    flex-wrap: wrap;            
+  }
+
+  .cookis {
+    margin-top: 30px;
+    justify-content: center;
+  }
+
+  .region {
+    margin-left: 0;               /* tenía 180px */
+  }
+
+  .idioma {
+    margin-top: 30px auto 0;
+  }
+}
+
+/* Celular: 600px o menos */
+@media (max-width: 600px) {
+  .titulo h1 {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+
+  .h2 h2 {
+    font-size: 26px;
+    padding: 0 20px;
+  }
+
+  .parrafo-secundario p {
+    max-width: 90%;
+    font-size: 14px;
+  }
+
+  .botones {
+    display: flex;
+    flex-direction: column;       /* botones del hero apilados */
+    gap: 12px;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .botones button {
+    justify-content: center;
+  }
+
+  .redes {
+    flex-wrap: wrap;
+  }
+}
