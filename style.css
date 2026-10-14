@@ -35,7 +35,7 @@ body{
 
 .Logo svg{
     height: 20px;
-    width: auto;\
+    width: auto;
     display: black;
 }
 
@@ -379,7 +379,7 @@ footer{
   display: none;
   background: transparent;
   border: none;
-  color: white;
+  color: grey;
   padding: 0;
   line-height: 0;
   cursor: pointer;
